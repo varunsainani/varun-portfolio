@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import "@/styles/globals.css";
+import "./globals.css";
 
 export const metadata: Metadata = {
   title: "Varun Sainani — Full-Stack Web Developer",
@@ -13,8 +13,6 @@ export const metadata: Metadata = {
     "Next.js Developer",
     "SZABIST",
     "Karachi",
-    "Freelance Developer",
-    "Web Developer Pakistan",
   ],
   authors: [{ name: "Varun Sainani", url: "https://github.com/varunsainani" }],
   openGraph: {
@@ -31,8 +29,8 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <html lang="en">
-      <body>{children}</body>
+    <html lang="en" suppressHydrationWarning>
+      <body suppressHydrationWarning>{children}</body>
     </html>
   );
 }
