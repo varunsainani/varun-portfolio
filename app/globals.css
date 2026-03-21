@@ -1249,7 +1249,7 @@ img {
   background: var(--cream-2);
   border: 1px solid var(--border-2);
   border-top: none;
-  font-family: "DM Sans";
+  font-family: "DM Sans", sans-serif;
   font-size: 14px;
   font-weight: 300;
   color: var(--ink);
@@ -1278,7 +1278,7 @@ img {
   padding: 18px;
   background: var(--ink);
   color: var(--cream);
-  font-family: "DM Sans";
+  font-family: "DM Sans", sans-serif;
   font-size: 13px;
   font-weight: 600;
   letter-spacing: 2px;
