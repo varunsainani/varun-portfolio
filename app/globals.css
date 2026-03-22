@@ -46,6 +46,10 @@ img {
   max-width: 100%;
 }
 
+section {
+  padding: 96px 56px;
+}
+
 /* ── Scroll Reveal ── */
 .reveal {
   opacity: 0;
