@@ -1,11 +1,9 @@
 "use client";
-
 import { useEffect } from "react";
 
 export default function ScrollReveal() {
   useEffect(() => {
-    const elements = document.querySelectorAll<HTMLElement>(".reveal");
-
+    const els = document.querySelectorAll<HTMLElement>(".reveal");
     const observer = new IntersectionObserver(
       (entries) => {
         entries.forEach((entry) => {
@@ -15,13 +13,10 @@ export default function ScrollReveal() {
           }
         });
       },
-      { threshold: 0.1, rootMargin: "0px 0px -40px 0px" }
+      { threshold: 0.1, rootMargin: "0px 0px -40px 0px" },
     );
-
-    elements.forEach((el) => observer.observe(el));
-
+    els.forEach((el) => observer.observe(el));
     return () => observer.disconnect();
   }, []);
-
   return null;
 }
