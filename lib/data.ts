@@ -13,23 +13,23 @@ import type {
 // ─── Navigation ───────────────────────────────────────────────────────────────
 
 export const NAV_LINKS: NavLink[] = [
-  { label: "About",      href: "#about"      },
-  { label: "Services",   href: "#services"   },
+  { label: "About", href: "#about" },
+  { label: "Services", href: "#services" },
   { label: "Experience", href: "#experience" },
-  { label: "Projects",   href: "#projects"   },
-  { label: "Contact",    href: "#contact"    },
+  { label: "Projects", href: "#projects" },
+  { label: "Contact", href: "#contact" },
 ];
 
 // ─── Hero ─────────────────────────────────────────────────────────────────────
 
 export const HERO_INFO_ROWS: HeroInfoRow[] = [
-  { key: "Status",     value: "Open to Opportunities",          variant: "green" },
-  { key: "University", value: "SZABIST Karachi"                                  },
-  { key: "Year",       value: "2nd Year · BS CS",               variant: "rust"  },
-  { key: "CGPA",       value: "3.07 / 4.0"                                       },
-  { key: "Experience", value: "2+ Years"                                          },
-  { key: "Stack",      value: "React · Next.js · TS · Node",    variant: "rust"  },
-  { key: "Freelance",  value: "Fiverr · Active since 2024"                        },
+  { key: "Status", value: "Open to Opportunities", variant: "green" },
+  { key: "University", value: "SZABIST Karachi" },
+  { key: "Year", value: "2nd Year · BS CS", variant: "rust" },
+  { key: "CGPA", value: "3.07 / 4.0" },
+  { key: "Experience", value: "2+ Years" },
+  { key: "Stack", value: "React · Next.js · TS · Node", variant: "rust" },
+  { key: "Freelance", value: "Fiverr · Active since 2024" },
 ];
 
 // ─── Services ─────────────────────────────────────────────────────────────────
@@ -147,7 +147,7 @@ export const PROJECTS: Project[] = [
       "Responsive e-commerce frontend with dynamic search, product filtering, and cart state managed entirely in vanilla JavaScript. Structured with reusable UI components and documented version control across 20+ commits.",
     stack: ["HTML5", "CSS3", "JavaScript"],
     links: [
-      { type: "live",   href: "#" }, // TODO: Replace with live URL
+      { type: "live", href: "#" }, // TODO: Replace with live URL
       { type: "github", href: "#" }, // TODO: Replace with GitHub repo URL
     ],
   },
@@ -158,7 +158,7 @@ export const PROJECTS: Project[] = [
       "Type-safe cart with real-time updates and state managed entirely through React hooks — no external state libraries. Strict TypeScript interfaces across all components improved code predictability and eliminated common runtime errors.",
     stack: ["React", "TypeScript", "CSS3"],
     links: [
-      { type: "live",   href: "#" }, // TODO: Replace with live URL
+      { type: "live", href: "#" }, // TODO: Replace with live URL
       { type: "github", href: "#" }, // TODO: Replace with GitHub repo URL
     ],
   },
@@ -169,8 +169,8 @@ export const PROJECTS: Project[] = [
       "Two independent systems: an Artisan Inventory Management System architected using OOP principles with modular design, and a Cognitive Load Management System that schedules tasks by calculating cognitive load using DSA-based algorithms.",
     stack: ["Java", "OOP", "Data Structures"],
     links: [
-      { type: "live",    href: "#" }, // TODO: Replace with live URL
-      { type: "private"            }, // Private repo
+      { type: "live", href: "#" }, // TODO: Replace with live URL
+      { type: "private" }, // Private repo
     ],
   },
   {
@@ -180,7 +180,7 @@ export const PROJECTS: Project[] = [
       "Two React TypeScript mini apps — SwiftCalc: a real-time computation engine with fully typed expression parsing and strict interfaces. TaskFlow: a dynamic state-driven task manager with full CRUD, typed hooks, and a fully responsive UI.",
     stack: ["React", "TypeScript", "Hooks"],
     links: [
-      { type: "live",   href: "#" }, // TODO: Replace with live URL
+      { type: "live", href: "#" }, // TODO: Replace with live URL
       { type: "github", href: "#" }, // TODO: Replace with GitHub repo URL
     ],
   },
@@ -190,10 +190,7 @@ export const PROJECTS: Project[] = [
     description:
       "Converted pixel-accurate HTML/CSS designs into production React components and integrated REST APIs in live Next.js applications. Collaborated with backend team members on API contracts and maintained consistent component patterns across the codebase.",
     stack: ["Next.js", "Node.js", "React", "REST API"],
-    links: [
-      { type: "private" },
-      { type: "private" },
-    ],
+    links: [{ type: "private" }, { type: "private" }],
   },
 ];
 
@@ -203,8 +200,13 @@ export const SKILL_GROUPS: SkillGroup[] = [
   {
     heading: "Frontend",
     skills: [
-      "React.js", "Next.js", "TypeScript",
-      "JavaScript ES6+", "HTML5", "CSS3", "UI/UX",
+      "React.js",
+      "Next.js",
+      "TypeScript",
+      "JavaScript ES6+",
+      "HTML5",
+      "CSS3",
+      "UI/UX",
     ],
   },
   {
@@ -225,47 +227,47 @@ export const SKILL_GROUPS: SkillGroup[] = [
 
 export const CONTACT_METHODS: ContactMethod[] = [
   {
-    label:   "Email",
-    value:   "varunsainani0990@gmail.com",
+    label: "Email",
+    value: "varunsainani0990@gmail.com",
     display: "varunsainani0990@gmail.com",
-    icon:    "@",
-    href:    "mailto:varunsainani0990@gmail.com",
+    icon: "@",
+    href: "mailto:varunsainani0990@gmail.com",
   },
   {
-    label:   "Phone",
-    value:   "+92 309 7565902",
+    label: "Phone",
+    value: "+92 309 7565902",
     display: "+92 309 7565902",
-    icon:    "#",
-    href:    "tel:+923097565902",
+    icon: "WA",
+    href: "https://wa.me/923097565902",
   },
   {
-    label:   "LinkedIn",
-    value:   "linkedin.com/in/varunsainani",
+    label: "LinkedIn",
+    value: "linkedin.com/in/varunsainani",
     display: "linkedin.com/in/varunsainani",
-    icon:    "in",
-    href:    "https://linkedin.com/in/varunsainani",
+    icon: "in",
+    href: "https://linkedin.com/in/varunsainani",
   },
   {
-    label:   "GitHub",
-    value:   "github.com/varunsainani",
+    label: "GitHub",
+    value: "github.com/varunsainani",
     display: "github.com/varunsainani",
-    icon:    "gh",
-    href:    "https://github.com/varunsainani",
+    icon: "gh",
+    href: "https://github.com/varunsainani",
   },
 ];
 
 export const CONTACT_TYPE_OPTIONS: SelectOption[] = [
-  { value: "recruiter", label: "Recruiter / HR"       },
-  { value: "founder",   label: "Startup Founder"      },
-  { value: "client",    label: "Freelance Client"     },
-  { value: "agency",    label: "Agency"               },
-  { value: "other",     label: "Other"                },
+  { value: "recruiter", label: "Recruiter / HR" },
+  { value: "founder", label: "Startup Founder" },
+  { value: "client", label: "Freelance Client" },
+  { value: "agency", label: "Agency" },
+  { value: "other", label: "Other" },
 ];
 
 export const BUDGET_OPTIONS: SelectOption[] = [
-  { value: "na",    label: "N/A — Internship / Job" },
-  { value: "100",   label: "$100 – $500"            },
-  { value: "500",   label: "$500 – $1,500"          },
-  { value: "1500",  label: "$1,500 – $5,000"        },
-  { value: "5000",  label: "$5,000+"                },
+  { value: "na", label: "N/A — Internship / Job" },
+  { value: "100", label: "$100 – $500" },
+  { value: "500", label: "$500 – $1,500" },
+  { value: "1500", label: "$1,500 – $5,000" },
+  { value: "5000", label: "$5,000+" },
 ];
