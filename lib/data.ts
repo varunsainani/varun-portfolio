@@ -108,7 +108,7 @@ export const TIMELINE_ITEMS: TimelineItem[] = [
   },
   {
     id: "airtecture",
-    organisation: "Airtecture",
+    organisation: "Airtective",
     role: "Web Developer & Digital Coordinator",
     date: "Apr 2025 — Jun 2025",
     type: "work",

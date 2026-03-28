@@ -21,7 +21,7 @@ export default function About() {
           <p>
             My professional experience includes a role as{" "}
             <strong>
-              Web Developer &amp; Digital Coordinator at Airtecture
+              Web Developer &amp; Digital Coordinator at Airtective
             </strong>{" "}
             (Apr–Jun 2025), where I developed and maintained back-end features
             using Node.js and managed the company&apos;s digital presence.
