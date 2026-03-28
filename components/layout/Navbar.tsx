@@ -40,7 +40,7 @@ export default function Navbar() {
           <div className="avail-dot" />
           Open to Work
         </div>
-        <a href="/resume.pdf" download className="btn-resume">
+        <a href="/Varun-Resume.pdf" download className="btn-resume">
           <svg
             width="13"
             height="13"

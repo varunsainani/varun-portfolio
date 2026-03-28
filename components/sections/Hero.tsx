@@ -24,7 +24,7 @@ export default function Hero() {
           <a href="#contact" className="btn-primary-hero">
             Get in Touch
           </a>
-          <a href="/resume.pdf" download className="btn-outline-hero">
+          <a href="/Varun-resume.pdf" download className="btn-outline-hero">
             ↓ Download CV
           </a>
         </div>
