@@ -26,7 +26,6 @@ export const HERO_INFO_ROWS: HeroInfoRow[] = [
   { key: "Status", value: "Open to Opportunities", variant: "green" },
   { key: "University", value: "SZABIST Karachi" },
   { key: "Year", value: "2nd Year · BS CS", variant: "rust" },
-  { key: "CGPA", value: "3.07 / 4.0" },
   { key: "Experience", value: "2+ Years" },
   { key: "Stack", value: "React · Next.js · TS · Node", variant: "rust" },
   { key: "Freelance", value: "Fiverr · Active since 2024" },
@@ -147,8 +146,11 @@ export const PROJECTS: Project[] = [
       "Responsive e-commerce frontend with dynamic search, product filtering, and cart state managed entirely in vanilla JavaScript. Structured with reusable UI components and documented version control across 20+ commits.",
     stack: ["HTML5", "CSS3", "JavaScript"],
     links: [
-      { type: "live", href: "#" }, // TODO: Replace with live URL
-      { type: "github", href: "#" }, // TODO: Replace with GitHub repo URL
+      {
+        type: "live",
+        href: "https://amazon-varun-sainanis-projects.vercel.app/",
+      },
+      { type: "github", href: "https://github.com/varunsainani/amazon-clone" },
     ],
   },
   {
@@ -158,30 +160,42 @@ export const PROJECTS: Project[] = [
       "Type-safe cart with real-time updates and state managed entirely through React hooks — no external state libraries. Strict TypeScript interfaces across all components improved code predictability and eliminated common runtime errors.",
     stack: ["React", "TypeScript", "CSS3"],
     links: [
-      { type: "live", href: "#" }, // TODO: Replace with live URL
-      { type: "github", href: "#" }, // TODO: Replace with GitHub repo URL
+      {
+        type: "live",
+        href: "https://shopping-cart-varun-sainanis-projects.vercel.app/",
+      },
+      { type: "github", href: "https://github.com/varunsainani/shopping-cart" },
     ],
   },
   {
     ordinal: "III",
+    title: "TaskFlow",
+    description:
+      "TaskFlow: a dynamic state-driven task manager with full CRUD, typed hooks, and a fully responsive UI.",
+    stack: ["React", "TypeScript", "Hooks"],
+    links: [
+      {
+        type: "live",
+        href: "https://todo-list-varun-sainanis-projects.vercel.app/",
+      },
+      { type: "github", href: "https://github.com/varunsainani/todo-list" },
+    ],
+  },
+  {
+    ordinal: "IV",
     title: "Java Systems Projects",
     description:
       "Two independent systems: an Artisan Inventory Management System architected using OOP principles with modular design, and a Cognitive Load Management System that schedules tasks by calculating cognitive load using DSA-based algorithms.",
     stack: ["Java", "OOP", "Data Structures"],
     links: [
-      { type: "live", href: "#" }, // TODO: Replace with live URL
-      { type: "private" }, // Private repo
-    ],
-  },
-  {
-    ordinal: "IV",
-    title: "SwiftCalc & TaskFlow",
-    description:
-      "Two React TypeScript mini apps — SwiftCalc: a real-time computation engine with fully typed expression parsing and strict interfaces. TaskFlow: a dynamic state-driven task manager with full CRUD, typed hooks, and a fully responsive UI.",
-    stack: ["React", "TypeScript", "Hooks"],
-    links: [
-      { type: "live", href: "#" }, // TODO: Replace with live URL
-      { type: "github", href: "#" }, // TODO: Replace with GitHub repo URL
+      {
+        type: "github",
+        href: "https://github.com/varunsainani/artisan-inventory-management",
+      },
+      {
+        type: "github",
+        href: "https://github.com/varunsainani/cognitive-load-management-system",
+      },
     ],
   },
   {

@@ -1,19 +1,13 @@
-// ─── Navigation ───────────────────────────────────────────────────────────────
-
 export interface NavLink {
   label: string;
   href: string;
 }
-
-// ─── Hero ─────────────────────────────────────────────────────────────────────
 
 export interface HeroInfoRow {
   key: string;
   value: string;
   variant?: "default" | "rust" | "green";
 }
-
-// ─── Services ─────────────────────────────────────────────────────────────────
 
 export interface Service {
   icon: string;
@@ -26,8 +20,6 @@ export interface ProcessStep {
   title: string;
   description: string;
 }
-
-// ─── Experience & Education ───────────────────────────────────────────────────
 
 export type TimelineType = "education" | "work";
 
@@ -47,8 +39,6 @@ export interface TimelineItem {
   };
 }
 
-// ─── Projects ─────────────────────────────────────────────────────────────────
-
 export interface ProjectLink {
   type: "live" | "github" | "private";
   href?: string;
@@ -62,14 +52,10 @@ export interface Project {
   links: ProjectLink[];
 }
 
-// ─── Skills ───────────────────────────────────────────────────────────────────
-
 export interface SkillGroup {
   heading: string;
   skills: string[];
 }
-
-// ─── Contact ──────────────────────────────────────────────────────────────────
 
 export interface ContactMethod {
   label: string;
