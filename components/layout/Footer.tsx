@@ -35,7 +35,7 @@ export default function Footer() {
           </a>
         </div>
         <div className="footer-copy">
-          © 2025 Varun Sainani. All rights reserved.
+          © 2024 Varun Sainani. All rights reserved.
         </div>
       </div>
     </footer>
