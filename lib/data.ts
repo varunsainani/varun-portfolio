@@ -26,7 +26,7 @@ export const HERO_INFO_ROWS: HeroInfoRow[] = [
   { key: "Status", value: "Open to Opportunities", variant: "green" },
   { key: "University", value: "SZABIST Karachi" },
   { key: "Year", value: "2nd Year · BS CS", variant: "rust" },
-  { key: "Experience", value: "1 Year" },
+  { key: "Experience", value: "2 Year" },
   { key: "Stack", value: "React · Next.js · TS · Node", variant: "rust" },
   { key: "Freelance", value: "Fiverr · Active since 2024" },
 ];
