@@ -56,9 +56,23 @@ export default function Experience() {
                   </span>
                 )}
                 <span
-                  className={`type-badge ${item.type === "education" ? "edu-badge" : "exp-badge"}`}
+                  className={`type-badge ${
+                    item.type === "education"
+                      ? "edu-badge"
+                      : item.subType === "internship"
+                        ? "internship-badge"
+                        : item.subType === "freelance"
+                          ? "freelance-badge"
+                          : "exp-badge"
+                  }`}
                 >
-                  {item.type === "education" ? "Education" : "Work"}
+                  {item.type === "education"
+                    ? "Education"
+                    : item.subType === "internship"
+                      ? "Internship"
+                      : item.subType === "freelance"
+                        ? "Freelance"
+                        : "Work"}
                 </span>
               </div>
               <p className="timeline-desc">{item.description}</p>

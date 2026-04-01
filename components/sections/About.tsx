@@ -20,11 +20,9 @@ export default function About() {
           </p>
           <p>
             My professional experience includes a role as{" "}
-            <strong>
-              Web Developer &amp; Digital Coordinator at Airtective
-            </strong>{" "}
-            (Apr–Jun 2025), where I developed and maintained back-end features
-            using Node.js and managed the company&apos;s digital presence.
+            <strong>Backend Developer Internship at Airtective</strong> (Jun–Aug
+            2025), where I developed and maintained back-end features using
+            Node.js and Contributed to backend API development and integration.
             I&apos;ve also delivered full-stack React, Next.js, and Node.js
             projects for clients on <strong>Fiverr</strong> — handling
             everything from requirement gathering to final deployment.

@@ -10,7 +10,7 @@ import type {
   SelectOption,
 } from "@/types";
 
-// ─── Navigation ───────────────────────────────────────────────────────────────
+// ─── Navigation
 
 export const NAV_LINKS: NavLink[] = [
   { label: "About", href: "#about" },
@@ -20,7 +20,7 @@ export const NAV_LINKS: NavLink[] = [
   { label: "Contact", href: "#contact" },
 ];
 
-// ─── Hero ─────────────────────────────────────────────────────────────────────
+// ─── Hero
 
 export const HERO_INFO_ROWS: HeroInfoRow[] = [
   { key: "Status", value: "Open to Opportunities", variant: "green" },
@@ -31,7 +31,7 @@ export const HERO_INFO_ROWS: HeroInfoRow[] = [
   { key: "Freelance", value: "Fiverr · Active since 2024" },
 ];
 
-// ─── Services ─────────────────────────────────────────────────────────────────
+// ─── Services
 
 export const SERVICES: Service[] = [
   {
@@ -87,7 +87,7 @@ export const PROCESS_STEPS: ProcessStep[] = [
   },
 ];
 
-// ─── Experience & Education ───────────────────────────────────────────────────
+// ─── Experience & Education
 
 export const TIMELINE_ITEMS: TimelineItem[] = [
   {
@@ -109,13 +109,14 @@ export const TIMELINE_ITEMS: TimelineItem[] = [
   {
     id: "airtecture",
     organisation: "Airtective",
-    role: "Web Developer & Digital Coordinator",
-    date: "Apr 2025 — Jun 2025",
+    role: "Backend Developer Intern",
+    date: "Jun 2025 — Aug 2025",
     type: "work",
+    subType: "internship",
     isActive: false,
     description:
-      "Developed and maintained back-end features using Node.js. Managed the company's LinkedIn page and wider digital presence, bridging technical execution with digital strategy in a fast-moving environment.",
-    tags: ["Node.js", "Backend Development", "Digital Management"],
+      "Completed a backend development internship where I developed and maintained server-side features using Node.js. Contributed to API development and supported the company's digital operations during a fast-paced internship period.",
+    tags: ["Node.js", "Backend Development", "API Development"],
   },
   {
     id: "fiverr",
@@ -123,6 +124,7 @@ export const TIMELINE_ITEMS: TimelineItem[] = [
     role: "Freelance Full-Stack Developer",
     date: "Jan 2024 — Present",
     type: "work",
+    subType: "freelance",
     isActive: true,
     description:
       "Delivering client projects in React, Next.js, and Node.js since 2024. Managing the full project lifecycle independently — from requirement gathering and scoping through to final deployment. Also developed OOP-based applications in Java and C++ for clients with specific technical requirements.",
@@ -136,7 +138,7 @@ export const TIMELINE_ITEMS: TimelineItem[] = [
   },
 ];
 
-// ─── Projects ─────────────────────────────────────────────────────────────────
+// ─── Projects
 
 export const PROJECTS: Project[] = [
   {
@@ -208,7 +210,7 @@ export const PROJECTS: Project[] = [
   },
 ];
 
-// ─── Skills ───────────────────────────────────────────────────────────────────
+// ─── Skills
 
 export const SKILL_GROUPS: SkillGroup[] = [
   {
@@ -237,7 +239,7 @@ export const SKILL_GROUPS: SkillGroup[] = [
   },
 ];
 
-// ─── Contact ──────────────────────────────────────────────────────────────────
+// ─── Contact
 
 export const CONTACT_METHODS: ContactMethod[] = [
   {

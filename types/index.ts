@@ -29,6 +29,7 @@ export interface TimelineItem {
   role: string;
   date: string;
   type: TimelineType;
+  subType?: "internship" | "work" | "freelance";
   isActive: boolean;
   description: string;
   tags: string[];
