@@ -35,12 +35,35 @@ export default function Contact() {
     ) =>
       setForm((p) => ({ ...p, [k]: e.target.value }));
 
-  const handleSubmit = (e: React.FormEvent) => {
+  const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
-    // TODO: Replace with your form handler e.g. Formspree:
-    // await fetch("https://formspree.io/f/YOUR_ID", { method:"POST", headers:{"Content-Type":"application/json"}, body: JSON.stringify(form) });
-    console.log("Form submitted:", form);
-    setSubmitted(true);
+
+    try {
+      const response = await fetch("https://formspree.io/f/xreoypgn", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({
+          name: form.name,
+          email: form.email,
+          type: form.type,
+          budget: form.budget,
+          subject: form.subject,
+          message: form.message,
+        }),
+      });
+
+      if (response.ok) {
+        setSubmitted(true);
+      } else {
+        alert(
+          "Something went wrong. Please email me directly at varunsainani0990@gmail.com",
+        );
+      }
+    } catch {
+      alert(
+        "Something went wrong. Please email me directly at varunsainani0990@gmail.com",
+      );
+    }
   };
 
   return (
